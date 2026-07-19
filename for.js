@@ -36,3 +36,20 @@ for(let i = 1; i<=10 ; i++){
 for(let i= 10; i>=1 ; i--){
     console.log(i);
 }
+
+
+// Task 4 — Repeat a Message 
+// Using a while loop, print "Loop চলছে" exactly 7 times.
+
+let i = 1;
+while(i<8){
+    console.log(i, "Loop is Running.");
+    i++;
+}
+
+// Task 5 — Even Numbers 
+// Write a for loop that prints all even numbers between 1 and 30.
+
+for(let i=2; i<=30; i+=2){
+    console.log(i);
+}
